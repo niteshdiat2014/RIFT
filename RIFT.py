@@ -139,7 +139,7 @@ def main():
     DestinationDir = os.path.join(DestinationFolder,tm)
     os.mkdir(DestinationDir)
     FileAccess = os.path.join(DestinationDir,'Accessdenied.csv')
-    FileName = os.path.join(DestinationDir,'fls.csv')
+    FileName = os.path.join(DestinationDir,'audit.csv')
     extfiles(DestinationDir,FileAccess,FileName)
     cmndout(DestinationDir,FileName)
     archiving(DestinationDir)
